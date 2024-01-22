@@ -323,7 +323,7 @@ int FREQUENCY_tx_freq_check(const uint32_t Frequency)
 			break;
 
 		case FREQ_LOCK_446:
-			if (Frequency >= 446.00625 && Frequency <= 446.19375)
+			if (Frequency >= 44600625 && Frequency <= 44619375)
 				return 0;
 			break;
 
